@@ -4,6 +4,8 @@
 step 1:
 
 tar -xvf antiword-0.37.tar.gz
+
+
 step 2:(自己定义安装路径，调用Extractor需要指定doc_extractor)
 
 cd antiword-0.37 && make install && pwd > ~/antiword-path.txt
