@@ -13,7 +13,7 @@ class Extractor(object):
         获取doc文件提取器的路径
         :return:
         """
-        with open('antiword-path.txt', 'r') as f:
+        with open('~/antiword-path.txt', 'r') as f:
             return os.path.join(f.readline(), 'antiword')
 
     @property
